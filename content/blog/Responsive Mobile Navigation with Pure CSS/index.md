@@ -262,7 +262,7 @@ An event was set on the harmburger to listen for a `click` , click is an event i
 
 An if statement was created to check if certain conditions met, in this case, if the display value of anchor <div> is not none or the `display` value is `none`. So, if any happens, toggle happens and add the last part of our css to the harmburger element and the <div> element is set to display of flex and if conditions not met the toggle set and nav div links dissappear through the help of display none css property.
 
-![What-We-Just-Built](mobile-final-look.png)
+![What-We-Just-Built](final-mobile-look.png)
 
 ## Conclusion
 
