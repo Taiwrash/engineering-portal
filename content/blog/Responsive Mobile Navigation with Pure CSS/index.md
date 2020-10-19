@@ -176,7 +176,7 @@ The logo margin was reset to new values in all the screen size below 768px as in
 ```
 
 The display property of list items was change to them display vertically.
-![First-Mobile-Look](fisrt-mobile-look.png)
+![First-Mobile-Look](mobile-first-look.png)
 
 ## Let's Create the Harmburger.
 
