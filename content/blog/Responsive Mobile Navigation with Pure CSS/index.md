@@ -1,7 +1,7 @@
 ---
 title: "Responsive Mobile Navigation with Pure CSS"
 date: "2020-10-19"
-coverImage: page.png
+coverImage: "page.jpg"
 author: "Mudasiru Rasheed"
 tag: ["CSS", "Responsive Web Design", "Beginner"]
 description: "Thousands of frontend developers rely on css libraries, framework and other third party cdn to create a responsive mobile navigation. I will be discussing how it can be done with only CSS"
