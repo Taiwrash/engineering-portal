@@ -127,7 +127,7 @@ Above are the remaining snippet to have something like the image below. Explaini
 ### Here we are, amazing right?
 
 If you are following with the same snippets, you should have below beautiful yellow and white navigation bar.
-[!Desktop-view](/complete-desktop.png)
+![Desktop-view](complete-desktop.png)
 
 ## Not to loose focus, Let's design for mobile
 
@@ -176,7 +176,7 @@ The logo margin was reset to new values in all the screen size below 768px as in
 ```
 
 The display property of list items was change to them display vertically.
-[!First-Mobile-Look](/fisrt-mobile-look.png)
+![First-Mobile-Look](fisrt-mobile-look.png)
 
 ## Let's Create the Harmburger.
 
@@ -216,7 +216,7 @@ The above, create a section for the harmburger elements to not exceed.
 
 The above draw a three lines and we have something like below image.
 
-[!Drawwing-Harmburger](/harmburger-drawing.png)
+![Drawwing-Harmburger](harmburger-drawing.png)
 
 ## How will it toggle
 
@@ -238,14 +238,15 @@ The above created snippet will do nothing just yet. The remaining parts we done 
 
 It is the most simple script, you can ever think of. See below.
 
-```
+```js
+
 const harmb = document.querySelector(".harmburg");
 const navItems = document.querySelector(".anchors");
 ```
 
 Both harmburger <div> and the <div> which contain the nav links was brought to DOM for DOM manipulations.
 
-```
+```js
     harmb.addEventListener("click", () => {
     if (navItems.style.display == "" || navItems.style.display == "none") {
         harmb.classList.toggle("toggle");
@@ -261,7 +262,7 @@ An event was set on the harmburger to listen for a `click` , click is an event i
 
 An if statement was created to check if certain conditions met, in this case, if the display value of anchor <div> is not none or the `display` value is `none`. So, if any happens, toggle happens and add the last part of our css to the harmburger element and the <div> element is set to display of flex and if conditions not met the toggle set and nav div links dissappear through the help of display none css property.
 
-[!What-We-Just-Built](/mobile-final-look.png)
+![What-We-Just-Built](mobile-final-look.png)
 
 ## Conclusion
 
